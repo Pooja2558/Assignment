@@ -4,7 +4,7 @@ Creates Product entity and save below product in Mysql database and perform CRUD
 getProducts method will calculate the final price of each product based on discount and other charges table .
 
 
-## Installation
+### Installation
 
 ### 1. You can clone it from github by running following command
   $ git clone https://github.com/niteshsinghrajput/CRUD-Spring-Boot-JPA-MySQL.git
@@ -29,5 +29,49 @@ spring.mvc.pathmatch.matching-strategy = ANT_PATH_MATCHER
 ```
 ### 6. Right click on ProductAssignmentApplication.java file and run as Java Application
 
-## Once Sprint Boot Application will be started successfully then we 
+### Once Sprint Boot Application will be started successfully then we 
 can call following Endpoints by using POSTMAN
+
+### 7. To get list of Products call following endpoint with GET Request
+```
+  http://localhost:8088/getProducts/pid
+```
+### 8.To Create New Product use following url with POST Request
+```
+  http://localhost:8088/addProduct
+```
+
+### set request body as raw with JSON payload
+```
+ {  
+        "name": "Study table",
+        "productType": "Furniture",
+        "basePrice": 3333.33,
+        "category": "Furniture"
+ }
+
+```
+### 9.To get a particular product, use following url with `GET` request type in postman
+```
+  http://localhost:8088/getProducts/<pid>
+```
+### 10.To update product in database, use following url with `PUT` request type in postman
+```
+	http://localhost:8080/update/<id>
+```
+### set request body as raw with JSON payload
+
+```
+{  "productId": 3,
+        "name": "Study table",
+        "productType": "Furniture",
+        "basePrice": 3333.33,
+        "category": "Furniture"
+      
+        }
+```
+### 11.To delete a particular Product from database, use following url with `DELETE` request type in postman
+```
+  http://localhost:8080/delete/<id>
+```
+
