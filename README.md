@@ -16,15 +16,15 @@ Thymlea
 
 # Installation
 
-1. You can clone it from github by running following command
+# 1. You can clone it from github by running following command
   $ git clone https://github.com/niteshsinghrajput/CRUD-Spring-Boot-JPA-MySQL.git
-2. Import project into eclipse
+# 2. Import project into eclipse
   File -> open project from file system -> Directory ->  select Project folder from cloned location
-3. Right click on project in eclipse and then Maven -> Update Projects
-5. Update database credential and other configuration into application.properties available in src/main/java/resources
-  #changing the server port
-   server.port=8088
-
+# 3. Right click on project in eclipse and then Maven -> Update Projects
+# 5. Update database credential and other configuration into application.properties available in src/main/java/resources# 
+# 
+#changing the server port
+server.port=8088
 #db specific properties
 spring.datasource.url=jdbc:mysql://localhost:3306/product
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
