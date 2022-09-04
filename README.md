@@ -34,7 +34,7 @@ can call following Endpoints by using POSTMAN
 
 ### 7. To get list of Products call following endpoint with GET Request
 ```
-  http://localhost:8088/getProducts/pid
+  http://localhost:8088/fetchAllProducts
 ```
 ### 8.To Create New Product use following url with POST Request
 ```
@@ -74,4 +74,7 @@ can call following Endpoints by using POSTMAN
 ```
   http://localhost:8080/delete/<id>
 ```
-
+### swagger UI : 
+```
+http://localhost:8080/spring-boot-crud/swagger-ui.html
+```
