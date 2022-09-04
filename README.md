@@ -7,7 +7,9 @@ getProducts method will calculate the final price of each product based on disco
 ### Installation
 
 ### 1. You can clone it from github by running following command
-  $ git clone https://github.com/niteshsinghrajput/CRUD-Spring-Boot-JPA-MySQL.git
+```
+$ git clone https://github.com/Pooja2558/Assignment.git
+```
 ### 2. Import project into eclipse
 
   File -> open project from file system -> Directory ->  select Project folder from cloned location
@@ -74,7 +76,7 @@ can call following Endpoints by using POSTMAN
 ```
   http://localhost:8080/delete/<id>
 ```
-### swagger UI : 
+###  hit the URL in your web browser and see the Swagger API functionalities.
 ```
-http://localhost:8080/spring-boot-crud/swagger-ui.html
+http://localhost:8088/swagger-ui.html
 ```
