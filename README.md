@@ -23,7 +23,7 @@ Thymlea
 3. Right click on project in eclipse and then Maven -> Update Projects
 5. Update database credential and other configuration into application.properties available in src/main/java/resources
   #changing the server port
-server.port=8088
+   server.port=8088
 
 #db specific properties
 spring.datasource.url=jdbc:mysql://localhost:3306/product
